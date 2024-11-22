@@ -358,8 +358,141 @@
 
 
 ```
-추후 공개
-```
+📦wannaeat
+ ┣ 📂domain
+ ┃ ┣ 📂alarm
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┃ ┣ 📂enums
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂cart
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂chatmessage
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂menu
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂order
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂payment
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂reservation
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂restaurant
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂restaurantlike
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂socket
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┃ ┗ 📂enums
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂statistic
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┗ 📂service
+ ┃ ┗ 📂user
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┃ ┣ 📂enums
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┣ 📂global
+ ┃ ┣ 📂auth
+ ┃ ┃ ┣ 📂jwt
+ ┃ ┃ ┃ ┣ 📂filter
+ ┃ ┃ ┃ ┣ 📂service
+ ┃ ┃ ┃ ┗ 📂util
+ ┃ ┃ ┗ 📂oauth2
+ ┃ ┃ ┃ ┣ 📂handler
+ ┃ ┃ ┃ ┣ 📂service
+ ┃ ┃ ┃ ┣ 📂userinfo
+ ┃ ┣ 📂config
+ ┃ ┣ 📂exception
+ ┃ ┃ ┣ 📂error
+ ┃ ┣ 📂fcm
+ ┃ ┃ ┗ 📂exception
+ ┃ ┃ ┃ ┣ 📂error
+ ┃ ┣ 📂redis
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂response
+ ┃ ┗ 📂util
+ ┗ 📜WannaeatBeApplication.java
+ ```
 </div>
 </details>
 
