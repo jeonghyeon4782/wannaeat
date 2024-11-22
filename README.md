@@ -39,7 +39,7 @@
 
 | 장정현                                                                 | 곽예빈                                                                    | 이경곤                                                                   | 이수민                                                                   | 이정현                                                                   | 박소정                                                                      |                                             
 |---------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------| 
-| <img src="/readme/profile/장정현.png" alt='@jeonghyeon4782' width="120" height="120"> | <img src="/readme/profile/곽예빈.PNG" alt="@Yebin-Gwak" width="120" height="120"> | <img src="/readme/profile/이경곤.png" alt="@leeggon" width="120" height="120" > | <img src="/readme/profile/이수민.png" alt="@sumin305" width="120" height="120" > | <img src="/readme/profile/이정현.png" alt="@1116CafeMocha" width="120" height="120"> | <img src="/readme/profile/박소정.jpg" alt="@sojeong9432" width="120" height="120"> |
+| <img src="/readme/profile/장정현.png" alt='@jeonghyeon4782' width="120" height="120"> | <img src="/readme/profile/곽예빈.png" alt="@Yebin-Gwak" width="120" height="120"> | <img src="/readme/profile/이경곤.png" alt="@leeggon" width="120" height="120" > | <img src="/readme/profile/이수민.png" alt="@sumin305" width="120" height="120" > | <img src="/readme/profile/이정현.png" alt="@1116CafeMocha" width="120" height="120"> | <img src="/readme/profile/박소정.jpg" alt="@sojeong9432" width="120" height="120"> |
 | [@jeonghyeon4782](https://github.com/jeonghyeon4782)                              | [@Yebin-Gwak](https://github.com/Yebin-Gwak)                           | [@leeggon](https://github.com/leeggon)                              | [@sumin305](https://github.com/sumin305)                              | [@1116CafeMocha](https://github.com/1116CafeMocha)                            | [@sojeong9432](https://github.com/sojeong9432) 
 
 **🐯 장정현 : 팀장, Infra**
@@ -176,21 +176,9 @@
 
 # 서비스 화면
 
-### 메인       
-![image](/uploads/abe6432440a0dddc238437c2ac22fc71/image.png){: width="150"}
+### 메인         
 
-### 회원가입
-![image](/uploads/e5e696286fc0a28a144f3539ae57c6fe/image.png){: width="150"}
-
-### 소비자 페이지
-![image](/uploads/6d537789a9b1a4c5e45ed78553581394/image.png){: width="150"}
-![image](/uploads/23a4e01daa745417be8c5cc1952eda5d/image.png){: width="150"}
-
-### 소비자 예약
-![image](/uploads/51d4864f42a2c12937986dc8ecd7e4db/image.png){: width="150"}
-![image](/uploads/f0a043cc228d0f6e0dd06ed50d566626/image.png){: width="150"}
-![image](/uploads/e795c27fa933e99b265c4515e32d42b5/image.png){: width="150"}
-![image](/uploads/9ff8bfa5287043544ab67fa843754fdd/image.png){: width="150"}
+<img src="/readme/feature/메인화면.gif" width="500" />     
 
 # 개발 환경
 
