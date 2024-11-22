@@ -217,8 +217,365 @@
 <div markdown="1">
 
 ```
-추후 공개
-```
+📦src
+ ┣ 📂api
+ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📂ssafyPay
+ ┃ ┃ ┃ ┣ 📜account.js
+ ┃ ┃ ┃ ┣ 📜card.js
+ ┃ ┃ ┃ ┗ 📜user.js
+ ┃ ┃ ┣ 📜join.js
+ ┃ ┃ ┣ 📜login.js
+ ┃ ┃ ┗ 📜payment.js
+ ┃ ┣ 📂customer
+ ┃ ┃ ┣ 📜chat.js
+ ┃ ┃ ┣ 📜guest.js
+ ┃ ┃ ┣ 📜reservation.js
+ ┃ ┃ ┣ 📜restaurant.js
+ ┃ ┃ ┣ 📜socket.js
+ ┃ ┃ ┣ 📜user.js
+ ┃ ┃ ┗ 📜zzim.js
+ ┃ ┗ 📂manager
+ ┃ ┃ ┣ 📂alarm
+ ┃ ┃ ┃ ┗ 📜alarm.js
+ ┃ ┃ ┣ 📂menu
+ ┃ ┃ ┃ ┗ 📜menu.js
+ ┃ ┃ ┣ 📂reservation
+ ┃ ┃ ┃ ┗ 📜reservation.js
+ ┃ ┃ ┗ 📂restaurant
+ ┃ ┃ ┃ ┗ 📜restaurant.js
+ ┣ 📂assets
+ ┣ 📂component
+ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📂button
+ ┃ ┃ ┃ ┗ 📂WEButton
+ ┃ ┃ ┃ ┃ ┣ 📜WEButton.js
+ ┃ ┃ ┃ ┃ ┗ 📜WEButton.jsx
+ ┃ ┃ ┣ 📂check
+ ┃ ┃ ┃ ┣ 📜WECheck.js
+ ┃ ┃ ┃ ┗ 📜WECheck.jsx
+ ┃ ┃ ┣ 📂dropdown
+ ┃ ┃ ┃ ┣ 📜WEDropdown.js
+ ┃ ┃ ┃ ┗ 📜WEDropdown.jsx
+ ┃ ┃ ┣ 📂loading
+ ┃ ┃ ┃ ┗ 📜Loading.js
+ ┃ ┃ ┣ 📂modal
+ ┃ ┃ ┃ ┣ 📂WEAlertModal
+ ┃ ┃ ┃ ┃ ┣ 📜WEAlertModal.js
+ ┃ ┃ ┃ ┃ ┗ 📜WEAlertModal.jsx
+ ┃ ┃ ┃ ┣ 📂WESettingModal
+ ┃ ┃ ┃ ┃ ┣ 📜WESettingModal.js
+ ┃ ┃ ┃ ┃ ┗ 📜WESettingModal.jsx
+ ┃ ┃ ┃ ┣ 📂WESheetModal
+ ┃ ┃ ┃ ┃ ┣ 📜WESheetModal.js
+ ┃ ┃ ┃ ┃ ┗ 📜WESheetModal.jsx
+ ┃ ┃ ┃ ┣ 📜WEModal.js
+ ┃ ┃ ┃ ┗ 📜WEModal.jsx
+ ┃ ┃ ┣ 📂tab
+ ┃ ┃ ┃ ┗ 📂WETab
+ ┃ ┃ ┃ ┃ ┣ 📜WETab.js
+ ┃ ┃ ┃ ┃ ┗ 📜WETab.jsx
+ ┃ ┃ ┣ 📂textfield
+ ┃ ┃ ┃ ┗ 📂WETextfield
+ ┃ ┃ ┃ ┃ ┣ 📜WETextfield.js
+ ┃ ┃ ┃ ┃ ┗ 📜WETextfield.jsx
+ ┃ ┃ ┗ 📂toggle
+ ┃ ┃ ┃ ┣ 📜WEToggle.js
+ ┃ ┃ ┃ ┗ 📜WEToggle.jsx
+ ┃ ┣ 📂customer
+ ┃ ┃ ┣ 📂map
+ ┃ ┃ ┃ ┣ 📜Map.js
+ ┃ ┃ ┃ ┣ 📜Map.jsx
+ ┃ ┃ ┃ ┣ 📜MapFilterModalBox.js
+ ┃ ┃ ┃ ┗ 📜MapFilterModalBox.jsx
+ ┃ ┃ ┣ 📂order
+ ┃ ┃ ┃ ┣ 📂OrderCartBox
+ ┃ ┃ ┃ ┣ 📂OrderSheetBox
+ ┃ ┃ ┃ ┃ ┣ 📜OrderSheetBox.js
+ ┃ ┃ ┃ ┃ ┗ 📜OrderSheetBox.jsx
+ ┃ ┃ ┃ ┗ 📜MenuSelectBox.jsx
+ ┃ ┃ ┗ 📂reservation
+ ┃ ┃ ┃ ┣ 📂CardCarousel
+ ┃ ┃ ┃ ┃ ┣ 📜CardCarousel.js
+ ┃ ┃ ┃ ┃ ┗ 📜CardCarousel.jsx
+ ┃ ┃ ┃ ┣ 📂ReservationSeatMap
+ ┃ ┃ ┃ ┃ ┣ 📜ReservationSeatMap.js
+ ┃ ┃ ┃ ┃ ┗ 📜ReservationSeatMap.jsx
+ ┃ ┃ ┃ ┣ 📂SeatSelect
+ ┃ ┃ ┃ ┃ ┣ 📜SeatSelect.js
+ ┃ ┃ ┃ ┃ ┗ 📜SeatSelect.jsx
+ ┃ ┃ ┃ ┣ 📂TimeSelectModalBox
+ ┃ ┃ ┃ ┃ ┣ 📜TimeSelectModalBox.js
+ ┃ ┃ ┃ ┃ ┗ 📜TimeSelectModalBox.jsx
+ ┃ ┃ ┃ ┗ 📂WEStep
+ ┃ ┃ ┃ ┃ ┣ 📜WEStep.js
+ ┃ ┃ ┃ ┃ ┗ 📜WEStep.jsx
+ ┃ ┗ 📂manager
+ ┃ ┃ ┣ 📂main
+ ┃ ┃ ┃ ┗ 📂SeatingMap
+ ┃ ┃ ┃ ┃ ┣ 📜SeatingMap.js
+ ┃ ┃ ┃ ┃ ┗ 📜SeatingMap.jsx
+ ┃ ┃ ┣ 📂map
+ ┃ ┃ ┃ ┣ 📜ManagerMap.jsx
+ ┃ ┃ ┃ ┣ 📜MapModal.js
+ ┃ ┃ ┃ ┗ 📜MapModal.jsx
+ ┃ ┃ ┣ 📂restaurant
+ ┃ ┃ ┃ ┗ 📂SeatDecorate
+ ┃ ┃ ┃ ┃ ┣ 📂FloorSelector
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜FloorSelector.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜FloorSelector.jsx
+ ┃ ┃ ┃ ┃ ┣ 📂GridCanvas
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜GridCanvas.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜GridCanvas.jsx
+ ┃ ┃ ┃ ┃ ┗ 📂ItemPalette
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ItemPalette.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ItemPalette.jsx
+ ┃ ┃ ┣ 📂statistics
+ ┃ ┃ ┃ ┣ 📂WEColumn
+ ┃ ┃ ┃ ┃ ┣ 📜WEColumn.js
+ ┃ ┃ ┃ ┃ ┗ 📜WEColumn.jsx
+ ┃ ┃ ┃ ┣ 📂WEDonut
+ ┃ ┃ ┃ ┃ ┣ 📜WEDonut.js
+ ┃ ┃ ┃ ┃ ┗ 📜WEDonut.jsx
+ ┃ ┃ ┃ ┣ 📂WELine
+ ┃ ┃ ┃ ┃ ┣ 📜WELine.js
+ ┃ ┃ ┃ ┃ ┗ 📜WELine.jsx
+ ┃ ┃ ┃ ┗ 📂WEMenu
+ ┃ ┃ ┃ ┃ ┣ 📜WEMenu.js
+ ┃ ┃ ┃ ┃ ┗ 📜WEMenu.jsx
+ ┃ ┃ ┣ 📜WETimeDropdown.js
+ ┃ ┃ ┗ 📜WETimeDropdown.jsx
+ ┣ 📂firebase
+ ┃ ┣ 📜firebase.js
+ ┃ ┗ 📜firebaseCloudMessaging.js
+ ┣ 📂layout
+ ┃ ┗ 📂common
+ ┃ ┃ ┣ 📂WEBlackOutLayout
+ ┃ ┃ ┃ ┣ 📜WEBlackOutLayout.js
+ ┃ ┃ ┃ ┗ 📜WEBlackOutLayout.jsx
+ ┃ ┃ ┣ 📂WEFooter
+ ┃ ┃ ┃ ┣ 📜WEFooter.js
+ ┃ ┃ ┃ ┗ 📜WEFooter.jsx
+ ┃ ┃ ┣ 📂WEHeader
+ ┃ ┃ ┃ ┣ 📜WEExtraHeader.js
+ ┃ ┃ ┃ ┣ 📜WEExtraHeader.jsx
+ ┃ ┃ ┃ ┣ 📜WEHeader.js
+ ┃ ┃ ┃ ┗ 📜WEHeader.jsx
+ ┃ ┃ ┗ 📜Layout.js
+ ┣ 📂pages
+ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📂LoginPage
+ ┃ ┃ ┃ ┣ 📜LoginPage.js
+ ┃ ┃ ┃ ┗ 📜LoginPage.jsx
+ ┃ ┃ ┣ 📂LoginRedirectPage
+ ┃ ┃ ┃ ┗ 📜LoginRedirectPage.jsx
+ ┃ ┃ ┣ 📂PasswordRegistPage
+ ┃ ┃ ┃ ┣ 📜PasswordRegistPage.js
+ ┃ ┃ ┃ ┗ 📜PasswordRegistPage.jsx
+ ┃ ┃ ┗ 📂SignUpPage
+ ┃ ┃ ┃ ┣ 📜SignUpPage.js
+ ┃ ┃ ┃ ┗ 📜SignUpPage.jsx
+ ┃ ┣ 📂customer
+ ┃ ┃ ┣ 📂chat
+ ┃ ┃ ┃ ┣ 📜Chat.js
+ ┃ ┃ ┃ ┗ 📜ChatPage.jsx
+ ┃ ┃ ┣ 📂like
+ ┃ ┃ ┃ ┗ 📜LikePage.jsx
+ ┃ ┃ ┣ 📂main
+ ┃ ┃ ┃ ┣ 📂CreateQRPage
+ ┃ ┃ ┃ ┃ ┣ 📜CreateQRPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜CreateQRPage.jsx
+ ┃ ┃ ┃ ┣ 📂GuestEntryPage
+ ┃ ┃ ┃ ┃ ┣ 📜GuestEntryPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜GuestEntryPage.jsx
+ ┃ ┃ ┃ ┗ 📂MainPage
+ ┃ ┃ ┃ ┃ ┣ 📜MainPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜MainPage.jsx
+ ┃ ┃ ┣ 📂map
+ ┃ ┃ ┃ ┣ 📜MapRestaurantPage.js
+ ┃ ┃ ┃ ┗ 📜MapRestaurantPage.jsx
+ ┃ ┃ ┣ 📂order
+ ┃ ┃ ┃ ┣ 📂MenuSelectPage
+ ┃ ┃ ┃ ┃ ┣ 📜MenuSelectPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜MenuSelectPage.jsx
+ ┃ ┃ ┃ ┣ 📂NotExistOrderPage
+ ┃ ┃ ┃ ┃ ┣ 📜NotExistOrderPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜NotExistOrderPage.jsx
+ ┃ ┃ ┃ ┣ 📂OrderAllPaymentPage
+ ┃ ┃ ┃ ┃ ┗ 📜OrderAllPaymentPage.jsx
+ ┃ ┃ ┃ ┣ 📂OrderCartPage
+ ┃ ┃ ┃ ┃ ┣ 📜OrderCartPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜OrderCartPage.jsx
+ ┃ ┃ ┃ ┣ 📂OrderMainPage
+ ┃ ┃ ┃ ┃ ┣ 📜OrderMainPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜OrderMainPage.jsx
+ ┃ ┃ ┃ ┣ 📂OrderPaymentPage
+ ┃ ┃ ┃ ┃ ┣ 📜OrderPaymentPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜OrderPaymentPage.jsx
+ ┃ ┃ ┃ ┣ 📂OrderSheetPage
+ ┃ ┃ ┃ ┃ ┗ 📜OrderSheetPage.jsx
+ ┃ ┃ ┃ ┗ 📂OrderSuccessPage
+ ┃ ┃ ┃ ┃ ┣ 📜OrderSuccessPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜OrderSuccessPage.jsx
+ ┃ ┃ ┣ 📂pay
+ ┃ ┃ ┃ ┣ 📜FingerprintAuthPage.jsx
+ ┃ ┃ ┃ ┗ 📜PaymentPasswordPage.jsx
+ ┃ ┃ ┣ 📂reservation
+ ┃ ┃ ┃ ┣ 📂history
+ ┃ ┃ ┃ ┃ ┣ 📂ReservationDetailPage
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReservationDetailPage.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ReservationDetailPage.jsx
+ ┃ ┃ ┃ ┃ ┗ 📂ReservationListPage
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReservationListPage.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ReservationListPage.jsx
+ ┃ ┃ ┃ ┗ 📂process
+ ┃ ┃ ┃ ┃ ┣ 📂DepositPaymentPage
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜DepositPaymentPage.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜DepositPaymentPage.jsx
+ ┃ ┃ ┃ ┃ ┣ 📂FingerprintAuthPage
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜FingerprintAuthPage.js
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜FingerprintAuthPage.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜registerCredential.js
+ ┃ ┃ ┃ ┃ ┣ 📂PasswordAuthPage
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜PasswordAuthPage.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜PasswordAuthPage.jsx
+ ┃ ┃ ┃ ┃ ┣ 📂RestaurantDetailPage
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜RestaurantDetailPage.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜RestaurantDetailPage.jsx
+ ┃ ┃ ┃ ┃ ┣ 📂SeatSelectPage
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜SeatSelectPage.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜SeatSelectPage.jsx
+ ┃ ┃ ┃ ┃ ┣ 📂SuccessPage
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜SuccessPage.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜SuccessPage.jsx
+ ┃ ┃ ┃ ┃ ┗ 📂TimeSelectPage
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜TimeSelectPage.js
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜TimeSelectPage.jsx
+ ┃ ┃ ┗ 📂user
+ ┃ ┃ ┃ ┣ 📂CardManagePage
+ ┃ ┃ ┃ ┃ ┣ 📜CardManagePage.js
+ ┃ ┃ ┃ ┃ ┗ 📜CardManagePage.jsx
+ ┃ ┃ ┃ ┣ 📂CardRegistPage
+ ┃ ┃ ┃ ┃ ┣ 📜CardRegistPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜CardRegistPage.jsx
+ ┃ ┃ ┃ ┣ 📂MyInfoPage
+ ┃ ┃ ┃ ┃ ┣ 📜MyInfoPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜MyInfoPage.jsx
+ ┃ ┃ ┃ ┣ 📂MyZzimPage
+ ┃ ┃ ┃ ┃ ┣ 📜MyZzimPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜MyZzimPage.jsx
+ ┃ ┃ ┃ ┗ 📂NicknameEditPage
+ ┃ ┃ ┃ ┃ ┣ 📜NicknameEditPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜NicknameEditPage.jsx
+ ┃ ┗ 📂manager
+ ┃ ┃ ┣ 📂alarm
+ ┃ ┃ ┃ ┣ 📜alarm.js
+ ┃ ┃ ┃ ┗ 📜alarm.jsx
+ ┃ ┃ ┣ 📂main
+ ┃ ┃ ┃ ┣ 📜MainPage.js
+ ┃ ┃ ┃ ┗ 📜MainPage.jsx
+ ┃ ┃ ┣ 📂menu
+ ┃ ┃ ┃ ┣ 📂MemuRegistPage
+ ┃ ┃ ┃ ┃ ┣ 📜MemuRegistPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜MemuRegistPage.jsx
+ ┃ ┃ ┃ ┣ 📂MenuCategoryPage
+ ┃ ┃ ┃ ┃ ┣ 📜MenuCategoryPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜MenuCategoryPage.jsx
+ ┃ ┃ ┃ ┣ 📂MenuEditPage
+ ┃ ┃ ┃ ┃ ┣ 📜MenuEditPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜MenuEditPage.jsx
+ ┃ ┃ ┃ ┗ 📂MenuViewPage
+ ┃ ┃ ┃ ┃ ┣ 📜MenuViewPage.js
+ ┃ ┃ ┃ ┃ ┣ 📜MenuViewPage.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜Modal.js
+ ┃ ┃ ┣ 📂reservation
+ ┃ ┃ ┃ ┣ 📂AdminDetailPage
+ ┃ ┃ ┃ ┃ ┣ 📜AdminDetailPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜AdminDetailPage.jsx
+ ┃ ┃ ┃ ┣ 📂AdminPage
+ ┃ ┃ ┃ ┃ ┣ 📜AdminPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜AdminPage.jsx
+ ┃ ┃ ┃ ┣ 📂ManagerReservationDetailPage
+ ┃ ┃ ┃ ┃ ┣ 📜ManagerReservationDetailPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜ManagerReservationDetailPage.jsx
+ ┃ ┃ ┃ ┗ 📜AdminDatePage.jsx
+ ┃ ┃ ┣ 📂restaurant
+ ┃ ┃ ┃ ┣ 📂ManagerRegistPage
+ ┃ ┃ ┃ ┃ ┣ 📜ManagerRegistPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜ManagerRegistPage.jsx
+ ┃ ┃ ┃ ┣ 📂RestaurantManagePage
+ ┃ ┃ ┃ ┃ ┣ 📜RestaurantManagePage.js
+ ┃ ┃ ┃ ┃ ┗ 📜RestaurantManagePage.jsx
+ ┃ ┃ ┃ ┣ 📂SeatDecoratePage
+ ┃ ┃ ┃ ┃ ┣ 📜SeatDecoratePage.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜SeatDecoreatePage.js
+ ┃ ┃ ┃ ┣ 📜ManagerViewPage.jsx
+ ┃ ┃ ┃ ┗ 📜RestaurantViewPage.jsx
+ ┃ ┃ ┣ 📂statistics
+ ┃ ┃ ┃ ┣ 📂PeakTimePage
+ ┃ ┃ ┃ ┃ ┣ 📜PeakTimePage.js
+ ┃ ┃ ┃ ┃ ┗ 📜PeakTimePage.jsx
+ ┃ ┃ ┃ ┣ 📂SalesPage
+ ┃ ┃ ┃ ┃ ┣ 📜SalesPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜SalesPage.jsx
+ ┃ ┃ ┃ ┣ 📂StatisticsPage
+ ┃ ┃ ┃ ┃ ┣ 📜StatisticsPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜StatisticsPage.jsx
+ ┃ ┃ ┃ ┗ 📜MenuPage.jsx
+ ┃ ┃ ┗ 📂user
+ ┃ ┃ ┃ ┣ 📂MyInfoPage
+ ┃ ┃ ┃ ┃ ┣ 📜MyInfoPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜MyInfoPage.jsx
+ ┃ ┃ ┃ ┣ 📂NicknameEditPage
+ ┃ ┃ ┃ ┃ ┣ 📜NicknameEditPage.js
+ ┃ ┃ ┃ ┃ ┗ 📜NicknameEditPage.jsx
+ ┃ ┃ ┃ ┣ 📜AuthOCRPage.jsx
+ ┃ ┃ ┃ ┣ 📜AuthPage.jsx
+ ┃ ┃ ┃ ┗ 📜OCRCheckPage.jsx
+ ┣ 📂route
+ ┃ ┗ 📜routes.js
+ ┣ 📂stores
+ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📜useAnimationStore.js
+ ┃ ┃ ┣ 📜useCommonStore.js
+ ┃ ┃ ┣ 📜useDropdownStore.js
+ ┃ ┃ ┣ 📜useFooterStore.js
+ ┃ ┃ ┣ 📜useHeaderStore.js
+ ┃ ┃ ┣ 📜useModalStore.js
+ ┃ ┃ ┗ 📜useTextfieldStore.js
+ ┃ ┣ 📂customer
+ ┃ ┃ ┣ 📜useAuthStore.js
+ ┃ ┃ ┣ 📜useCardStore.js
+ ┃ ┃ ┣ 📜useCartStore.js
+ ┃ ┃ ┣ 📜useChatStore.js
+ ┃ ┃ ┣ 📜useMyInfoStore.js
+ ┃ ┃ ┣ 📜useOrderStore.js
+ ┃ ┃ ┣ 📜useReservationStore.js
+ ┃ ┃ ┗ 📜useRestaurantStore.js
+ ┃ ┣ 📂manager
+ ┃ ┃ ┣ 📜useGridCanvasStore.js
+ ┃ ┃ ┗ 📜useMyRestaurantStore.js
+ ┃ ┗ 📂map
+ ┃ ┃ ┣ 📜useMapFilterStore.js
+ ┃ ┃ ┗ 📜useMapStore.js
+ ┣ 📂style
+ ┃ ┗ 📂common
+ ┃ ┃ ┗ 📜theme.js
+ ┣ 📂utils
+ ┃ ┣ 📂manager
+ ┃ ┃ ┗ 📜restaurantRegistValidation.js
+ ┃ ┣ 📜alert.js
+ ┃ ┣ 📜decode-token.js
+ ┃ ┣ 📜http-client.js
+ ┃ ┗ 📜useCountDownTimer.js
+ ┣ 📜App.js
+ ┣ 📜Main.jsx
+ ┣ 📜config.js
+ ┣ 📜index.js
+ ┣ 📜reportWebVitals.js
+ ┣ 📜service-worker.js
+ ┗ 📜serviceWorkerRegistration.js
+ ```
 
 </div>
 </details>
