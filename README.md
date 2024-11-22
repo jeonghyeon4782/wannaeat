@@ -54,20 +54,16 @@
     <td><img src="/uploads/f32576199ea8275a1677bfcdd45527fc/image.png" width="120" height="120"></td>
     <td><img src="/uploads/edfb7fb5763ceb8122fb5905f7411f20/image.png" width="120" height="120"></td>
   </tr>
+  <tr>
+    <td>팀장, Infra</td>
+    <td>Back-end Leader</td>
+    <td>Back-end</td>
+    <td>Front-end Leader</td>
+    <td>Front-end</td>
+    <td>Front-end</td>
+  </tr>
 </table>
 
-
-**🐯 장정현 : 팀장, Infra**
-
-**🦁 곽예빈 : Back-end Leader**
-
-**🐼 이경곤 : Back-end**
-
-**🐰 이수민: Front-end Leader**
-
-**🐹 박소정 : Front-end**
-
-**🐻 이정현 : Front-end**
 
 <br>
 
@@ -113,8 +109,21 @@
 <a id="item-seven"></a>
 
 # 서비스 주요 기능
+| 구분 | 대분류 | 기능 | 설명 | 비고 |
+|------|--------|------|------|------|
+| 1    | 손님 | 공동 주문 | 링크를 통한 공동 주문 서비스 이용 |      |
+| 2    | 손님 | 실시간 메뉴 선정 및 채팅 | socket을 활용하여 구성원 간 실시간 메뉴 선정 및 소통 |      |
+| 3    | 손님 | 간편 결제 | SSAFY Pay를 활용한 카드 결제 및 카카오페이 결제 기능 |      |
+| 4    | 손님 | 식당 조회 | 지도와 검색 기능을 활용한 식당 조회 및 실제 현장 기반 매장 구조 파악 |      |
 
-![image](/uploads/8df122a5dd3fb246b5ae315cb64507d5/image.png)
+
+| 구분 | 대분류 | 기능 | 설명 | 비고 |
+|------|--------|------|------|------|
+| 1    | 사업자 | 효율적인 예약 관리 | 날짜별 예약 현황 조회　　　 |      |
+| 2    | 사업자 | 알림 기능 | FCM 토큰을 활용하여 손님의 예약 및 주문 알림 제공 |      |
+| 3    | 사업자 | 통계 분석 | 일자별, 월별, 고객별, 메뉴별 통계 제공 |      |
+| 4    | 사업자 | 매장 구조도 등록　　　　 | 드래그 앤 드롭으로 매장 구조도 등록 및 관리　　　　 　　　　　　　|      |
+
 
 # 서비스 아키텍쳐
 ![image](/uploads/9fb1d569c173893a32db6b6a7d8e2de5/image.png)
