@@ -37,32 +37,22 @@
 
 # 팀원 소개
 
-<table>
-  <tr>
-    <th>장정현</th>
-    <th>곽예빈</th>
-    <th>이경곤</th>
-    <th>이수민</th>
-    <th>박소정</th>
-    <th>이정현</th>
-  </tr>
-  <tr>
-    <td><img src="/uploads/73332892ccfb15155635b8126064f814/image.png" width="120" height="120"></td>
-    <td><img src="/uploads/7cd97476b00fc2b8561ef0b81c2692f3/image.png" width="120" height="120"></td>
-    <td><img src="/uploads/865c8847d21e605e02d8387ee4051f2a/image.png" width="120" height="120"></td>
-    <td><img src="/uploads/7486323ba58f29426659c91093f88ea6/image.png" width="120" height="120"></td>
-    <td><img src="/uploads/f32576199ea8275a1677bfcdd45527fc/image.png" width="120" height="120"></td>
-    <td><img src="/uploads/edfb7fb5763ceb8122fb5905f7411f20/image.png" width="120" height="120"></td>
-  </tr>
-  <tr>
-    <td>팀장, Infra</td>
-    <td>Back-end Leader</td>
-    <td>Back-end</td>
-    <td>Front-end Leader</td>
-    <td>Front-end</td>
-    <td>Front-end</td>
-  </tr>
-</table>
+| 장정현                                                                 | 곽예빈                                                                    | 이경곤                                                                   | 이수민                                                                   | 이정현                                                                   | 박소정                                                                      |                                             
+|---------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------| 
+| <img src="/readme/profile/장정현.png" alt='@jeonghyeon4782' width="120" height="120"> | <img src="/readme/profile/곽예빈.PNG" alt="@Yebin-Gwak" width="120" height="120"> | <img src="/readme/profile/이경곤.png" alt="@leeggon" width="120" height="120" > | <img src="/readme/profile/이수민.png" alt="@sumin305" width="120" height="120" > | <img src="/readme/profile/이정현.png" alt="@1116CafeMocha" width="120" height="120"> | <img src="/readme/profile/박소정.jpg" alt="@sojeong9432" width="120" height="120"> |
+| [@jeonghyeon4782](https://github.com/jeonghyeon4782)                              | [@Yebin-Gwak](https://github.com/Yebin-Gwak)                           | [@leeggon](https://github.com/leeggon)                              | [@sumin305](https://github.com/sumin305)                              | [@1116CafeMocha](https://github.com/1116CafeMocha)                            | [@sojeong9432](https://github.com/sojeong9432) 
+
+**🐯 장정현 : 팀장, Infra**
+
+**🦁 곽예빈 : Back-end Leader**
+
+**🐼 이경곤 : Back-end**
+
+**🐰 이수민: Front-end Leader**
+
+**🐻 이정현 : Front-end**
+
+**🐹 박소정 : Front-end**
 
 
 <br>
@@ -126,7 +116,7 @@
 
 
 # 서비스 아키텍쳐
-![image](/uploads/9fb1d569c173893a32db6b6a7d8e2de5/image.png)
+<img src="/readme/architecture/아키텍쳐.png" alt='서비스 아키텍쳐'>
 <br>
 
 <a id="item-four"></a>
