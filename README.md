@@ -1,9 +1,7 @@
 
 # 👨🏻‍🍳 소상공인을 위한 식당 무인 운영 앱 👨🏻‍🍳
 
-
-![image](/uploads/54cca10bd926fba70fa4705d7b7b4755/image.png)
-
+ <img src="/readme/image/mainbanner" >
 
 - **배포 URL : https://j11b302.p.ssafy.io**
 
@@ -39,20 +37,9 @@
 
 | 장정현                                                                 | 곽예빈                                                                    | 이경곤                                                                   | 이수민                                                                   | 이정현                                                                   | 박소정                                                                      |                                             
 |---------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------| 
-| <img src="/readme/profile/장정현.png" alt='@jeonghyeon4782' width="120" height="120"> | <img src="/readme/profile/곽예빈.png" alt="@Yebin-Gwak" width="120" height="120"> | <img src="/readme/profile/이경곤.png" alt="@leeggon" width="120" height="120" > | <img src="/readme/profile/이수민.png" alt="@sumin305" width="120" height="120" > | <img src="/readme/profile/이정현.png" alt="@1116CafeMocha" width="120" height="120"> | <img src="/readme/profile/박소정.jpg" alt="@sojeong9432" width="120" height="120"> |
+| <img src="/readme/profile/장정현.png" alt='@jeonghyeon4782' width="150" > | <img src="/readme/profile/곽예빈.PNG" alt="@Yebin-Gwak" width="150"> | <img src="/readme/profile/이경곤.png" alt="@leeggon" width="150" > | <img src="/readme/profile/이수민.png" alt="@sumin305" width="150" > | <img src="/readme/profile/이정현.png" alt="@1116CafeMocha" width="150"> | <img src="/readme/profile/박소정.jpg" alt="@sojeong9432" width="150"> |
 | [@jeonghyeon4782](https://github.com/jeonghyeon4782)                              | [@Yebin-Gwak](https://github.com/Yebin-Gwak)                           | [@leeggon](https://github.com/leeggon)                              | [@sumin305](https://github.com/sumin305)                              | [@1116CafeMocha](https://github.com/1116CafeMocha)                            | [@sojeong9432](https://github.com/sojeong9432) 
-
-**🐯 장정현 : 팀장, Infra**
-
-**🦁 곽예빈 : Back-end Leader**
-
-**🐼 이경곤 : Back-end**
-
-**🐰 이수민: Front-end Leader**
-
-**🐻 이정현 : Front-end**
-
-**🐹 박소정 : Front-end**
+|  팀장, Infra | Back-end Leader | Back-end | Front-end Leader | Front-end | Front-end |    
 
 
 <br>
@@ -115,7 +102,7 @@
 
 ## 머물래 서비스 목표
 
-예약부터 주문, 결제, 퇴실 까지 **매장 이용의 모든 프로세스를 제공**하여, 
+> 예약부터 주문, 결제, 퇴실 까지 **매장 이용의 모든 프로세스를 제공**하여, 
 손님과 사장님 모두를 만족시키는 서비스를 제공하고자 합니다!  
 <br>
 
@@ -138,6 +125,16 @@
 | 4    | 사업자 | 매장 구조도 등록　　　　 | 드래그 앤 드롭으로 매장 구조도 등록 및 관리　　　　 　　　　　　　|      |
 
 
+
+
+# 서비스 화면
+| 메인 | 식당 조회 | 
+|------|--------|
+| <img src="/readme/feature/메인화면.gif" width="300" /> | <img src="/readme/feature/식당조회.gif" width="300" />    |
+      
+| 간편 결제 | 주문 결제 및 퇴실 |
+|------|--------|
+| <img src="/readme/feature/간편결제.gif" width="300" />  | <img src="/readme/feature/주문결제및퇴실.gif" width="300" />      |
 # 서비스 아키텍쳐
 <img src="/readme/architecture/아키텍쳐.png" alt='서비스 아키텍쳐'>
 <br>
@@ -188,12 +185,6 @@
 <br>
 
 <a id="item-five"></a>
-
-# 서비스 화면
-
-### 메인         
-
-<img src="/readme/feature/메인화면.gif" width="500" />     
 
 # 개발 환경
 
