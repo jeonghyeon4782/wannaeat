@@ -1,7 +1,7 @@
 
 # 👨🏻‍🍳 소상공인을 위한 식당 무인 운영 앱 👨🏻‍🍳
 
- <img src="/readme/image/mainbanner" >
+ <img src="/readme/image/mainbanner.png" >
 
 - **배포 URL : https://j11b302.p.ssafy.io**
 
@@ -132,9 +132,11 @@
 |------|--------|
 | <img src="/readme/feature/메인화면.gif" width="300" /> | <img src="/readme/feature/식당조회.gif" width="300" />    |
       
-| 간편 결제 | 주문 결제 및 퇴실 |
-|------|--------|
-| <img src="/readme/feature/간편결제.gif" width="300" />  | <img src="/readme/feature/주문결제및퇴실.gif" width="300" />      |
+| 간편 결제 | 공동 주문 및 채팅 |  주문 결제 및 퇴실 |
+|------|--------|--------|
+| <img src="/readme/feature/간편결제.gif" width="300" />  |
+<img src="/readme/feature/공동주문및채팅.gif" width="300" />    |
+<img src="/readme/feature/주문결제및퇴실.gif" width="300" />      |
 # 서비스 아키텍쳐
 <img src="/readme/architecture/아키텍쳐.png" alt='서비스 아키텍쳐'>
 <br>
