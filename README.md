@@ -35,11 +35,11 @@
 
 # 팀원 소개
 
-| 장정현                                                                 | 곽예빈                                                                    | 이경곤                                                                   | 이수민                                                                   | 이정현                                                                   | 박소정                                                                      |                                             
-|---------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------| 
-| <img src="/readme/profile/장정현.png" alt='@jeonghyeon4782' width="100px" /> | <img src="/readme/profile/곽예빈.PNG" alt="@Yebin-Gwak" width="100px"/> | <img src="/readme/profile/이경곤.png" alt="@leeggon" width="100px" /> | <img src="/readme/profile/이수민.png" alt="@sumin305" width="100px" /> | <img src="/readme/profile/이정현.png" alt="@1116CafeMocha" width="100px"/> | <img src="/readme/profile/박소정.jpg" alt="@sojeong9432" width="100px"/> |
-| [@jeonghyeon4782](https://github.com/jeonghyeon4782)                              | [@Yebin-Gwak](https://github.com/Yebin-Gwak)                           | [@leeggon](https://github.com/leeggon)                              | [@sumin305](https://github.com/sumin305)                              | [@1116CafeMocha](https://github.com/1116CafeMocha)                            | [@sojeong9432](https://github.com/sojeong9432) 
-|  팀장, Infra | Back-end Leader　 | Back-end　　　　 　| Front-end Leader 　| Front-end | Front-end 　　　　　|    
+| 장정현                                                                  | 곽예빈                                                                   | 이경곤                                                                   | 이수민                                                                   | 이정현                                                                   | 박소정                                                                   |                                             
+|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------| 
+| <img src="/readme/profile/장정현.png" alt='@jeonghyeon4782' width="100px" />  | <img src="/readme/profile/곽예빈.PNG" alt="@Yebin-Gwak" width="100px"/> | <img src="/readme/profile/이경곤.png" alt="@leeggon" width="100px" />  | <img src="/readme/profile/이수민.png" alt="@sumin305" width="100px" />  | <img src="/readme/profile/이정현.png" alt="@1116CafeMocha" width="100px"/>  | <img src="/readme/profile/박소정.jpg" alt="@sojeong9432" width="100px"/>  |
+| [@jeonghyeon4782](https://github.com/jeonghyeon4782)                   | [@Yebin-Gwak](https://github.com/Yebin-Gwak)                            | [@leeggon](https://github.com/leeggon)                                 | [@sumin305](https://github.com/sumin305)                                | [@1116CafeMocha](https://github.com/1116CafeMocha)                       | [@sojeong9432](https://github.com/sojeong9432)                           |
+| 팀장, Infra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                        | Back-end Leader&nbsp;&nbsp;                                             | Back-end&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Front-end Leader                                                        | Front-end&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Front-end&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | 
 
 
 <br>
@@ -132,11 +132,11 @@
 ### 손님 (모바일)
 | 메인 | 식당 조회 및 예약 | 보증금 결제 |
 |------|--------|--------|
-| <img src="/readme/feature/메인화면.gif" width="300" /> | <img src="/readme/feature/식당조회및예약.gif" width="300" />    |  <img src="/readme/feature/간편결제.gif" width="300" />   |
+| <img src="/readme/feature/메인화면.gif" width="250" /> | <img src="/readme/feature/식당조회및예약.gif" width="250" />    |  <img src="/readme/feature/간편결제.gif" width="250" />   |
       
 | 공동 주문 및 채팅 |  주문 결제 및 퇴실 | 예약 관리 및 결제 관리 | 
 |--------|--------|--------|
-| <img src="/readme/feature/공동주문및채팅.gif" width="300" />    | <img src="/readme/feature/주문결제및퇴실.gif" width="300" />      |   <img src="/readme/feature/예약관리및카드관리.gif" width="300" />      | 
+| <img src="/readme/feature/공동주문및채팅.gif" width="250" />    | <img src="/readme/feature/주문결제및퇴실.gif" width="250" />      |   <img src="/readme/feature/예약관리및카드관리.gif" width="250" />      | 
 
 ### 사업자 (웹)
 
