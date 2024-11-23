@@ -130,7 +130,7 @@
 # 서비스 화면
 | 메인 | 식당 조회 | 
 |------|--------|
-| <img src="/readme/feature/메인화면.gif" width="300" /> | <img src="/readme/feature/식당조회.gif" width="300" />    |
+| <img src="/readme/feature/메인화면.gif" width="300" /> | <img src="/readme/feature/식당조회및예약.gif" width="300" />    |
       
 | 간편 결제 | 공동 주문 및 채팅 |  주문 결제 및 퇴실 |
 |------|--------|--------|
