@@ -134,10 +134,9 @@
       
 | 간편 결제 | 공동 주문 및 채팅 |  주문 결제 및 퇴실 |
 |------|--------|--------|
-| <img src="/readme/feature/간편결제.gif" width="300" />  |
-<img src="/readme/feature/공동주문및채팅.gif" width="300" />    |
-<img src="/readme/feature/주문결제및퇴실.gif" width="300" />      |
-# 서비스 아키텍쳐
+| <img src="/readme/feature/간편결제.gif" width="300" />  | <img src="/readme/feature/공동주문및채팅.gif" width="300" />    | <img src="/readme/feature/주문결제및퇴실.gif" width="300" />      |  
+
+# 서비스 아키텍쳐 
 <img src="/readme/architecture/아키텍쳐.png" alt='서비스 아키텍쳐'>
 <br>
 
