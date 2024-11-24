@@ -148,7 +148,10 @@
 <br>
 
 ## 🔗 Wannaeat Infra 바로가기  
-[![Notion](https://img.shields.io/badge/Wannaeat%20Infra-000000?style=for-the-badge&logo=notion&logoColor=white)](https://fluttering-ski-a33.notion.site/Wannaeat-Infra-13e2bdca7ff38076b175c14df1f4c6ad)
+
+📂 [**Wannaeat Infra 바로가기**](https://fluttering-ski-a33.notion.site/Wannaeat-Infra-13e2bdca7ff38076b175c14df1f4c6ad)  
+> Wannaeat 서비스의 인프라 구성 및 관련 자료를 확인할 수 있습니다.
+
 <br>
 <br>
 
