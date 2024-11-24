@@ -142,8 +142,14 @@
 
 <a id="서비스-아키텍쳐"></a>
 
-# 서비스 아키텍쳐 
+# 서비스 아키텍쳐
+
 <img src="/readme/architecture/아키텍쳐.png" alt='서비스 아키텍쳐'>
+<br>
+
+## 🔗 Wannaeat Infra 바로가기  
+[![Notion](https://img.shields.io/badge/Wannaeat%20Infra-000000?style=for-the-badge&logo=notion&logoColor=white)](https://fluttering-ski-a33.notion.site/Wannaeat-Infra-13e2bdca7ff38076b175c14df1f4c6ad)
+<br>
 <br>
 
 <a id="기술-스택"></a>
@@ -178,9 +184,14 @@
 
 ### 🏗 Infra
 
+![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=Amazon%20EC2&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=Docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker--compose-0db7ed?style=for-the-badge&logo=Docker&logoColor=white)
+![Docker Hub](https://img.shields.io/badge/Docker%20Hub-1488C6?style=for-the-badge&logo=Docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=Nginx&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white)
-
-<img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=Amazon%20EC2&logoColor=white"><img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white"> ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white">
+![ELK Stack](https://img.shields.io/badge/ELK%20Stack-005571?style=for-the-badge&logo=ElasticStack&logoColor=white)
 
 ### 🛠 Tool
 
@@ -228,6 +239,8 @@
 - Nginx `1.18.0`
 - AWS EC2
 - AWS S3
+- ELK Stack
+- Docker-Hub
 
 <br>
 
