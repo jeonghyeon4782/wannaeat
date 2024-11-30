@@ -138,7 +138,27 @@
 |--------|--------|--------|
 | <img src="/readme/feature/공동주문및채팅.gif" width="250" />    | <img src="/readme/feature/주문결제및퇴실.gif" width="250" />      |   <img src="/readme/feature/예약관리및카드관리.gif" width="250" />      | 
 
+### 사업자 (모바일)
+| 메인 | 매장꾸미기 | 예약관리 |
+|------|--------|--------|
+| <img src="/readme/feature/사장님메인페이지.jpg" width="250" /> | <img src="/readme/feature/사장님매장꾸미기페이지.jpg" width="250" />    |  <img src="/readme/feature/사장님예약관리페이지.jpg" width="250" />   |
+      
+| 알림 |  통계 | 내정보 | 
+|--------|--------|--------|
+| <img src="/readme/feature/사장님알림페이지.jpg" width="250" />    | <img src="/readme/feature/사장님통계페이지.jpg" width="250" />      |   <img src="/readme/feature/사장님내정보페이지.jpg" width="250" />      |
+
 ### 사업자 (웹)
+| 매장 구조도 등록 | 매장 구조도 수정 | 매장 현황 |
+|------|--------|--------|
+| <img src="/readme/feature/웹_매장 구조도 생성.gif" width="300" /> | <img src="/readme/feature/웹_매장 구조도 수정.gif" width="300" />    |  <img src="/readme/feature/웹_매장 현황.gif" width="300" />   |
+      
+| 예약 관리 |  메뉴 등록 & AI 음식 사진 보정 | 식당 정보 수정 | 
+|--------|--------|--------|
+| <img src="/readme/feature/웹_예약 관리.gif" width="300" />    | <img src="/readme/feature/웹_메뉴 등록, AI 음식 사진 보정.gif" width="300" />      |   <img src="/readme/feature/웹_식당 정보 수정.gif" width="300" />      | 
+
+| 사업자 통계 | 사업자 알림 | QR 생성 |
+|------|--------|--------|
+| <img src="/readme/feature/웹_사업자 통계.gif" width="300" /> | <img src="/readme/feature/웹_사업자 알림.gif" width="300" />    |  <img src="/readme/feature/웹_QR 생성.gif" width="300" />   |
 
 <a id="서비스-아키텍쳐"></a>
 
